@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MasterViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Make sure launch screen shows for at least a little bit for branding purposes
+    [NSThread sleepForTimeInterval:1.0];
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MasterViewController *masterViewController = [[MasterViewController alloc] init];
+    self.window.rootViewController = masterViewController;
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
+    [self.window addSubview:self.navigationController.view];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

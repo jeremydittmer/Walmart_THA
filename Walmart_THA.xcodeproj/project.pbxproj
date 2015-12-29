@@ -7,24 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED4D24961C23F21D00DE827A /* StarRatingMask.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4D24931C23F21D00DE827A /* StarRatingMask.png */; };
+		ED4D24971C23F21D00DE827A /* StarRatingMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4D24941C23F21D00DE827A /* StarRatingMask@2x.png */; };
+		ED4D24981C23F21D00DE827A /* StarRatingMask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED4D24951C23F21D00DE827A /* StarRatingMask@3x.png */; };
+		ED812E941C319BF2001BA302 /* UIColor+ColorExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812E931C319BF2001BA302 /* UIColor+ColorExtensions.m */; };
+		ED812E981C319C0E001BA302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812E971C319C0E001BA302 /* AppDelegate.m */; };
+		ED812E9B1C319C1A001BA302 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812E9A1C319C1A001BA302 /* Product.m */; };
+		ED812E9E1C319C25001BA302 /* ProductJSONReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812E9D1C319C25001BA302 /* ProductJSONReader.m */; };
+		ED812EA11C319C33001BA302 /* ProductDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EA01C319C33001BA302 /* ProductDataManager.m */; };
+		ED812EA41C319C40001BA302 /* WalmartAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EA31C319C40001BA302 /* WalmartAPIManager.m */; };
+		ED812EA71C319C54001BA302 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EA61C319C54001BA302 /* MasterViewController.m */; };
+		ED812EAA1C319C62001BA302 /* ProductListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EA91C319C62001BA302 /* ProductListTableViewCell.m */; };
+		ED812EAD1C319C72001BA302 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EAC1C319C72001BA302 /* DetailViewController.m */; };
+		ED812EB01C319C7F001BA302 /* MainDetailViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EAF1C319C7F001BA302 /* MainDetailViewCell.m */; };
+		ED812EB31C319C89001BA302 /* HTMLContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EB21C319C89001BA302 /* HTMLContentCell.m */; };
+		ED812EB61C319C94001BA302 /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EB51C319C94001BA302 /* StarRatingView.m */; };
+		ED812EB91C319C9E001BA302 /* VariableFontSizePriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EB81C319C9E001BA302 /* VariableFontSizePriceView.m */; };
+		ED812EBC1C319CAE001BA302 /* ActivityIndicatorWithBezel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EBB1C319CAE001BA302 /* ActivityIndicatorWithBezel.m */; };
+		ED812EDC1C325B23001BA302 /* product_data.json in Resources */ = {isa = PBXBuildFile; fileRef = ED812ED11C325B23001BA302 /* product_data.json */; };
+		ED812EE01C325B71001BA302 /* WalmartAPIMockData.m in Sources */ = {isa = PBXBuildFile; fileRef = ED812EDF1C325B71001BA302 /* WalmartAPIMockData.m */; };
+		EDB958791C212FDE00764BC3 /* NavBarLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB958761C212FDE00764BC3 /* NavBarLogo.png */; };
+		EDB9587A1C212FDE00764BC3 /* NavBarLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB958771C212FDE00764BC3 /* NavBarLogo@2x.png */; };
+		EDB9587B1C212FDE00764BC3 /* NavBarLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB958781C212FDE00764BC3 /* NavBarLogo@3x.png */; };
 		EDDDA37E1C20BA5D00F6C99D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDDA37D1C20BA5D00F6C99D /* main.m */; };
-		EDDDA3811C20BA5D00F6C99D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDDA3801C20BA5D00F6C99D /* AppDelegate.m */; };
-		EDDDA3841C20BA5D00F6C99D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDDA3831C20BA5D00F6C99D /* ViewController.m */; };
-		EDDDA3871C20BA5D00F6C99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDDA3851C20BA5D00F6C99D /* Main.storyboard */; };
 		EDDDA3891C20BA5D00F6C99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDDA3881C20BA5D00F6C99D /* Assets.xcassets */; };
-		EDDDA38C1C20BA5D00F6C99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDDA38A1C20BA5D00F6C99D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED4D24931C23F21D00DE827A /* StarRatingMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarRatingMask.png; path = Resources/Images/StarRatingMask.png; sourceTree = "<group>"; };
+		ED4D24941C23F21D00DE827A /* StarRatingMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StarRatingMask@2x.png"; path = "Resources/Images/StarRatingMask@2x.png"; sourceTree = "<group>"; };
+		ED4D24951C23F21D00DE827A /* StarRatingMask@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StarRatingMask@3x.png"; path = "Resources/Images/StarRatingMask@3x.png"; sourceTree = "<group>"; };
+		ED812E921C319BF2001BA302 /* UIColor+ColorExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorExtensions.h"; path = "Classes/Extensions/UIColor+ColorExtensions.h"; sourceTree = "<group>"; };
+		ED812E931C319BF2001BA302 /* UIColor+ColorExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorExtensions.m"; path = "Classes/Extensions/UIColor+ColorExtensions.m"; sourceTree = "<group>"; };
+		ED812E951C319C04001BA302 /* WalmartAPIManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WalmartAPIManagerDelegate.h; path = Classes/Model/WalmartAPIManagerDelegate.h; sourceTree = "<group>"; };
+		ED812E961C319C0E001BA302 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		ED812E971C319C0E001BA302 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		ED812E991C319C1A001BA302 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Product.h; path = Classes/Model/Product.h; sourceTree = "<group>"; };
+		ED812E9A1C319C1A001BA302 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Product.m; path = Classes/Model/Product.m; sourceTree = "<group>"; };
+		ED812E9C1C319C25001BA302 /* ProductJSONReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductJSONReader.h; path = Classes/Model/ProductJSONReader.h; sourceTree = "<group>"; };
+		ED812E9D1C319C25001BA302 /* ProductJSONReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductJSONReader.m; path = Classes/Model/ProductJSONReader.m; sourceTree = "<group>"; };
+		ED812E9F1C319C33001BA302 /* ProductDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductDataManager.h; path = Classes/Model/ProductDataManager.h; sourceTree = "<group>"; };
+		ED812EA01C319C33001BA302 /* ProductDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductDataManager.m; path = Classes/Model/ProductDataManager.m; sourceTree = "<group>"; };
+		ED812EA21C319C40001BA302 /* WalmartAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalmartAPIManager.h; path = Classes/Model/WalmartAPIManager.h; sourceTree = "<group>"; };
+		ED812EA31C319C40001BA302 /* WalmartAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalmartAPIManager.m; path = Classes/Model/WalmartAPIManager.m; sourceTree = "<group>"; };
+		ED812EA51C319C54001BA302 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = Classes/UI/MasterViewController.h; sourceTree = "<group>"; };
+		ED812EA61C319C54001BA302 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = Classes/UI/MasterViewController.m; sourceTree = "<group>"; };
+		ED812EA81C319C62001BA302 /* ProductListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductListTableViewCell.h; path = Classes/UI/ProductListTableViewCell.h; sourceTree = "<group>"; };
+		ED812EA91C319C62001BA302 /* ProductListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductListTableViewCell.m; path = Classes/UI/ProductListTableViewCell.m; sourceTree = "<group>"; };
+		ED812EAB1C319C72001BA302 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Classes/UI/DetailViewController.h; sourceTree = "<group>"; };
+		ED812EAC1C319C72001BA302 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Classes/UI/DetailViewController.m; sourceTree = "<group>"; };
+		ED812EAE1C319C7F001BA302 /* MainDetailViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainDetailViewCell.h; path = Classes/UI/MainDetailViewCell.h; sourceTree = "<group>"; };
+		ED812EAF1C319C7F001BA302 /* MainDetailViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainDetailViewCell.m; path = Classes/UI/MainDetailViewCell.m; sourceTree = "<group>"; };
+		ED812EB11C319C89001BA302 /* HTMLContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLContentCell.h; path = Classes/UI/HTMLContentCell.h; sourceTree = "<group>"; };
+		ED812EB21C319C89001BA302 /* HTMLContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLContentCell.m; path = Classes/UI/HTMLContentCell.m; sourceTree = "<group>"; };
+		ED812EB41C319C94001BA302 /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarRatingView.h; path = Classes/UI/StarRatingView.h; sourceTree = "<group>"; };
+		ED812EB51C319C94001BA302 /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StarRatingView.m; path = Classes/UI/StarRatingView.m; sourceTree = "<group>"; };
+		ED812EB71C319C9E001BA302 /* VariableFontSizePriceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VariableFontSizePriceView.h; path = Classes/UI/VariableFontSizePriceView.h; sourceTree = "<group>"; };
+		ED812EB81C319C9E001BA302 /* VariableFontSizePriceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VariableFontSizePriceView.m; path = Classes/UI/VariableFontSizePriceView.m; sourceTree = "<group>"; };
+		ED812EBA1C319CAE001BA302 /* ActivityIndicatorWithBezel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityIndicatorWithBezel.h; path = Classes/UI/ActivityIndicatorWithBezel.h; sourceTree = "<group>"; };
+		ED812EBB1C319CAE001BA302 /* ActivityIndicatorWithBezel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityIndicatorWithBezel.m; path = Classes/UI/ActivityIndicatorWithBezel.m; sourceTree = "<group>"; };
+		ED812ED11C325B23001BA302 /* product_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = product_data.json; path = Classes/Model/Mock/product_data.json; sourceTree = "<group>"; };
+		ED812EDE1C325B71001BA302 /* WalmartAPIMockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalmartAPIMockData.h; path = Classes/Model/Mock/WalmartAPIMockData.h; sourceTree = "<group>"; };
+		ED812EDF1C325B71001BA302 /* WalmartAPIMockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalmartAPIMockData.m; path = Classes/Model/Mock/WalmartAPIMockData.m; sourceTree = "<group>"; };
+		EDB958761C212FDE00764BC3 /* NavBarLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavBarLogo.png; path = Resources/Images/NavBarLogo.png; sourceTree = "<group>"; };
+		EDB958771C212FDE00764BC3 /* NavBarLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NavBarLogo@2x.png"; path = "Resources/Images/NavBarLogo@2x.png"; sourceTree = "<group>"; };
+		EDB958781C212FDE00764BC3 /* NavBarLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NavBarLogo@3x.png"; path = "Resources/Images/NavBarLogo@3x.png"; sourceTree = "<group>"; };
 		EDDDA3791C20BA5D00F6C99D /* Walmart_THA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walmart_THA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDDA37D1C20BA5D00F6C99D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDDDA37F1C20BA5D00F6C99D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EDDDA3801C20BA5D00F6C99D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EDDDA3821C20BA5D00F6C99D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDDDA3831C20BA5D00F6C99D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EDDDA3861C20BA5D00F6C99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDDDA3881C20BA5D00F6C99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDDDA38B1C20BA5D00F6C99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDDDA38D1C20BA5D00F6C99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,6 +89,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED812EBD1C319D12001BA302 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED812E921C319BF2001BA302 /* UIColor+ColorExtensions.h */,
+				ED812E931C319BF2001BA302 /* UIColor+ColorExtensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		ED812EBE1C319D2A001BA302 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED812E991C319C1A001BA302 /* Product.h */,
+				ED812E9A1C319C1A001BA302 /* Product.m */,
+				ED812E9F1C319C33001BA302 /* ProductDataManager.h */,
+				ED812EA01C319C33001BA302 /* ProductDataManager.m */,
+				ED812E9C1C319C25001BA302 /* ProductJSONReader.h */,
+				ED812E9D1C319C25001BA302 /* ProductJSONReader.m */,
+				ED812E951C319C04001BA302 /* WalmartAPIManagerDelegate.h */,
+				ED812EA21C319C40001BA302 /* WalmartAPIManager.h */,
+				ED812EA31C319C40001BA302 /* WalmartAPIManager.m */,
+				ED812EDD1C325B2A001BA302 /* Mock Data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ED812EBF1C319D5C001BA302 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED812EC61C31A27D001BA302 /* Common */,
+				ED812EC41C31A245001BA302 /* Product List */,
+				ED812EC51C31A259001BA302 /* Product Detail */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		ED812EC01C319D67001BA302 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED812E961C319C0E001BA302 /* AppDelegate.h */,
+				ED812E971C319C0E001BA302 /* AppDelegate.m */,
+				ED812EBD1C319D12001BA302 /* Extensions */,
+				ED812EBE1C319D2A001BA302 /* Model */,
+				ED812EBF1C319D5C001BA302 /* UI */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		ED812EC41C31A245001BA302 /* Product List */ = {
+			isa = PBXGroup;
+			children = (
+				ED812EA51C319C54001BA302 /* MasterViewController.h */,
+				ED812EA61C319C54001BA302 /* MasterViewController.m */,
+				ED812EA81C319C62001BA302 /* ProductListTableViewCell.h */,
+				ED812EA91C319C62001BA302 /* ProductListTableViewCell.m */,
+			);
+			name = "Product List";
+			sourceTree = "<group>";
+		};
+		ED812EC51C31A259001BA302 /* Product Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ED812EAB1C319C72001BA302 /* DetailViewController.h */,
+				ED812EAC1C319C72001BA302 /* DetailViewController.m */,
+				ED812EAE1C319C7F001BA302 /* MainDetailViewCell.h */,
+				ED812EAF1C319C7F001BA302 /* MainDetailViewCell.m */,
+				ED812EB11C319C89001BA302 /* HTMLContentCell.h */,
+				ED812EB21C319C89001BA302 /* HTMLContentCell.m */,
+			);
+			name = "Product Detail";
+			sourceTree = "<group>";
+		};
+		ED812EC61C31A27D001BA302 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ED812EBA1C319CAE001BA302 /* ActivityIndicatorWithBezel.h */,
+				ED812EBB1C319CAE001BA302 /* ActivityIndicatorWithBezel.m */,
+				ED812EB41C319C94001BA302 /* StarRatingView.h */,
+				ED812EB51C319C94001BA302 /* StarRatingView.m */,
+				ED812EB71C319C9E001BA302 /* VariableFontSizePriceView.h */,
+				ED812EB81C319C9E001BA302 /* VariableFontSizePriceView.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		ED812EDD1C325B2A001BA302 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				ED812EDE1C325B71001BA302 /* WalmartAPIMockData.h */,
+				ED812EDF1C325B71001BA302 /* WalmartAPIMockData.m */,
+				ED812ED11C325B23001BA302 /* product_data.json */,
+			);
+			name = "Mock Data";
+			sourceTree = "<group>";
+		};
+		EDB958821C213FA500764BC3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EDB958761C212FDE00764BC3 /* NavBarLogo.png */,
+				EDB958771C212FDE00764BC3 /* NavBarLogo@2x.png */,
+				EDB958781C212FDE00764BC3 /* NavBarLogo@3x.png */,
+				ED4D24931C23F21D00DE827A /* StarRatingMask.png */,
+				ED4D24941C23F21D00DE827A /* StarRatingMask@2x.png */,
+				ED4D24951C23F21D00DE827A /* StarRatingMask@3x.png */,
+				EDDDA3881C20BA5D00F6C99D /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		EDDDA3701C20BA5D00F6C99D = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +217,8 @@
 		EDDDA37B1C20BA5D00F6C99D /* Walmart_THA */ = {
 			isa = PBXGroup;
 			children = (
-				EDDDA37F1C20BA5D00F6C99D /* AppDelegate.h */,
-				EDDDA3801C20BA5D00F6C99D /* AppDelegate.m */,
-				EDDDA3821C20BA5D00F6C99D /* ViewController.h */,
-				EDDDA3831C20BA5D00F6C99D /* ViewController.m */,
-				EDDDA3851C20BA5D00F6C99D /* Main.storyboard */,
-				EDDDA3881C20BA5D00F6C99D /* Assets.xcassets */,
-				EDDDA38A1C20BA5D00F6C99D /* LaunchScreen.storyboard */,
-				EDDDA38D1C20BA5D00F6C99D /* Info.plist */,
+				ED812EC01C319D67001BA302 /* Classes */,
+				EDB958821C213FA500764BC3 /* Assets */,
 				EDDDA37C1C20BA5D00F6C99D /* Supporting Files */,
 			);
 			path = Walmart_THA;
@@ -75,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				EDDDA37D1C20BA5D00F6C99D /* main.m */,
+				EDDDA38D1C20BA5D00F6C99D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -135,9 +289,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDDDA38C1C20BA5D00F6C99D /* LaunchScreen.storyboard in Resources */,
+				EDB9587A1C212FDE00764BC3 /* NavBarLogo@2x.png in Resources */,
+				EDB958791C212FDE00764BC3 /* NavBarLogo.png in Resources */,
+				EDB9587B1C212FDE00764BC3 /* NavBarLogo@3x.png in Resources */,
 				EDDDA3891C20BA5D00F6C99D /* Assets.xcassets in Resources */,
-				EDDDA3871C20BA5D00F6C99D /* Main.storyboard in Resources */,
+				ED812EDC1C325B23001BA302 /* product_data.json in Resources */,
+				ED4D24961C23F21D00DE827A /* StarRatingMask.png in Resources */,
+				ED4D24981C23F21D00DE827A /* StarRatingMask@3x.png in Resources */,
+				ED4D24971C23F21D00DE827A /* StarRatingMask@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,32 +307,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDDDA3841C20BA5D00F6C99D /* ViewController.m in Sources */,
-				EDDDA3811C20BA5D00F6C99D /* AppDelegate.m in Sources */,
+				ED812E981C319C0E001BA302 /* AppDelegate.m in Sources */,
+				ED812EB01C319C7F001BA302 /* MainDetailViewCell.m in Sources */,
+				ED812E9B1C319C1A001BA302 /* Product.m in Sources */,
+				ED812EAD1C319C72001BA302 /* DetailViewController.m in Sources */,
+				ED812EA11C319C33001BA302 /* ProductDataManager.m in Sources */,
+				ED812EE01C325B71001BA302 /* WalmartAPIMockData.m in Sources */,
+				ED812EB61C319C94001BA302 /* StarRatingView.m in Sources */,
+				ED812EAA1C319C62001BA302 /* ProductListTableViewCell.m in Sources */,
 				EDDDA37E1C20BA5D00F6C99D /* main.m in Sources */,
+				ED812E941C319BF2001BA302 /* UIColor+ColorExtensions.m in Sources */,
+				ED812EA41C319C40001BA302 /* WalmartAPIManager.m in Sources */,
+				ED812EBC1C319CAE001BA302 /* ActivityIndicatorWithBezel.m in Sources */,
+				ED812EB91C319C9E001BA302 /* VariableFontSizePriceView.m in Sources */,
+				ED812EB31C319C89001BA302 /* HTMLContentCell.m in Sources */,
+				ED812EA71C319C54001BA302 /* MasterViewController.m in Sources */,
+				ED812E9E1C319C25001BA302 /* ProductJSONReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		EDDDA3851C20BA5D00F6C99D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDDDA3861C20BA5D00F6C99D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EDDDA38A1C20BA5D00F6C99D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDDDA38B1C20BA5D00F6C99D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EDDDA38E1C20BA5D00F6C99D /* Debug */ = {
@@ -262,7 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Walmart_THA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JD.Walmart-THA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,7 +428,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Walmart_THA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JD.Walmart-THA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +456,7 @@
 				EDDDA3921C20BA5D00F6C99D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
