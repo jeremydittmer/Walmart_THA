@@ -22,6 +22,7 @@ Walmart Mobile Engineering app assignment:
 + Star reviews are shaded by area rather than by width.  For example, if the average rating is 4.25, one quarter of the _area_ of the fifth star will be shaded rather than shading one quarter of its width.  This allows users to better visually estimate the numerical value of stars.  A more detailed explanation for this and the math behind it is in "StarRatingView.m".
 + Any views that I thought might be reusable are stand-alone classes that can be dropped into other views as desired.
 + I used only code for the UI (no storyboards or xibs) to make a project that could be more easily worked on simultaneously by multiple developers, better behavior with version control, and a personal preference for explicit vs. implicit.
++ Intentionally, the app only works in the portrait orientation.  This matches the behavior of other similar apps in the marketplace (Walmart's iOS app, Amazon's iOS app, etc.).
 + Bonuses:
   - I did not use AFNetworking or AlamoFire
   - No products of the 224 in the list have more than one image and the JSON structure does not support multiple images per item so I did not spend time creating a paged carousel in the detail view.
